@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	position:relative;
+}
+
+body{
+	background-color: #EF4136;
+	
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+
+ul{
+	list-style:none;
+}
+
+#wrapper{
+	margin:0px;
+}
+
+h1{
+	font-size: 36px;
+	font-weight:600;
+	color:#000;
+}
+h2{
+	font-size:68px;
+	font-weight:100;
+	color:#fff;
+}
+p{
+	font-size: 24px;
+	font-weight:200;
+	color:#000;
+	width:460px;
+}
+
+
+#content{
+	position: relative;
+	margin-left:90px;
+	background-color:#f1f1f1;
+}
+
+
+.slide{
+	margin:0;
+	height:800px;
+}
+
+.slide-content{
+	width:780px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slide-content a{
+	display:inline;
+	font-size:24px;
+	font-weight:200;
+	color:#EF4136;
+	text-decoration: underline;
+}
+
+.slide-bg {
+	position:absolute;
+	background-image:url('../images/shadow.png');
+	width:551px;
+	height: 655px;
+	margin:0px;
+	left:0px;
+	top:0px;
+}
+
+.slide-img {
+	width:262px;
+	height:448px;
+	display:inline-block;
+	position:absolute;
+}
+.slide-bullet{
+	margin-left:314px;
+	width:132px;
+	height:107px;
+	background-image:url('../images/Circle.png');
+	position: absolute;
+	text-align:center;
+	padding-top:25px;
+}
+.slide-text{
+	left:314px;
+	top:160px;
+	position: absolute;
+}
+
+#navbar{
+	position:fixed;
+	width:90px;
+	
+}
+
+.navbar-deselected {
+	display:block;
+	width:90px;
+	height:64px;
+	padding-top:12px;
+	font-size:28px;
+	font-weight:200;
+	color:#fff;
+	text-decoration:none;
+	text-align: center;
+}
+.navbar-selected {
+	display:block;
+	width:90px;
+	height:64px;
+	padding-top:12px;
+	font-size:28px;
+	font-weight:200;
+	color:#fff;
+	text-decoration:none;
+	text-align: center;
+	background-image: url('../images/Navbar-hilite.png');
+	background-repeat: no-repeat;
+	background-position:left top;
+	
+}
+
+.next{
+	position:relative;
+	margin-left: 56px;
+	top: 35px;
+}
+
+form{
+	top:15px;
+	width:460px;
+	display:block;
+}
+
+input[type=text]{
+	background:none;
+	display:block;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid #000;
+	font-size:18px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight:200;
+	height: 53px;
+}
+
+input[type=text]:focus{
+	outline:none;
+}
+
+textarea{
+	margin-top:16px;
+	height:90px;
+	width:500px;
+	background:none;
+	display:block;
+	border:none;
+	font-size:18px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight:200;
+}
+
+textarea:focus{
+	outline:none;
+}
+
+input[type=submit]{
+	display:block;
+	border:none;
+	height:46px;
+	width:206px;
+	font-size:18px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight:200;
+	color:#fff;
+	background-color:#EF4136;
+}
+
+input[type=submit]:active{
+	border-top: 3px solid #BD342B;
+}
