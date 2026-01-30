@@ -14,8 +14,8 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background-color: #E64A3B;
-            color: white;
+            background-color: #ffffff;
+            color: #222222;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -50,12 +50,11 @@
         p {
             font-size: 1.25rem;
             line-height: 1.6;
-            opacity: 0.95;
             margin-bottom: 32px;
         }
 
         .back-link {
-            color: white;
+            color: #E64A3B;
             text-decoration: none;
             font-size: 1.1rem;
             font-weight: 500;
@@ -66,18 +65,18 @@
         }
 
         .back-link:hover {
-            opacity: 0.8;
+            opacity: 0.7;
         }
 
         footer {
             text-align: center;
             padding: 24px;
             font-size: 0.9rem;
-            opacity: 0.8;
+            color: #666666;
         }
 
         footer a {
-            color: white;
+            color: #E64A3B;
             text-decoration: none;
         }
 
@@ -103,8 +102,14 @@
 <body>
     <main>
         <div class="content">
-            <a href="index.html">
-                <img src="assets/sumhold-logo.svg" alt="Sumhold Logo" class="logo">
+            <a href="index.html" aria-label="Back to Sumhold">
+                <svg class="logo" width="89" height="89" viewBox="0 0 89 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="9.49823" y="16.5693" width="10" height="89" rx="5" transform="rotate(-45 9.49823 16.5693)" fill="#E64A3B"/>
+                    <rect y="49.5" width="10" height="89" rx="5" transform="rotate(-90 0 49.5)" fill="#E64A3B"/>
+                    <rect x="16.5693" y="79.5018" width="10" height="89" rx="5" transform="rotate(-135 16.5693 79.5018)" fill="#E64A3B"/>
+                    <circle cx="44.5" cy="82" r="7" fill="#E64A3B"/>
+                    <circle cx="44.5" cy="7" r="7" fill="#E64A3B"/>
+                </svg>
             </a>
             <h1>Privacy Policy</h1>
             <p>Sumhold does not collect any data. Your calculations stay on your device and are never transmitted to any server.</p>
